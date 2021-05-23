@@ -10,9 +10,9 @@
   "author": "Alex Muramoto",
   "license": "Apache-2.0",
   "dependencies": {
-    "@google/markerclustererplus": "^5.0.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "@google/markerclustererplus": "^5.1.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
   }
 }
