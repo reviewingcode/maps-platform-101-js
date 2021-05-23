@@ -15,6 +15,7 @@
  */
 
 const webpack = require('webpack');
+const Dotenv = require('dotenv-webpack');
 const path = require('path');
 
 const CONFIG = {
@@ -23,9 +24,14 @@ const CONFIG = {
   entry: {
     app: './src/app.js'
   },
+
   devServer: {
     contentBase: path.join(__dirname, 'src')
-  }
+  },
+
+  plugins: [
+    new Dotenv()
+  ]
 };
 
 module.exports = CONFIG;
